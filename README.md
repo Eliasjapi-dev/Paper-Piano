@@ -3,7 +3,7 @@
 **Paper Piano** is an interactive application that lets you “play” a printed piano using green markers and your computer’s camera. It combines OpenCV for computer vision, MediaPipe Hands for finger tracking, and Pygame for sound playback. Perfect for demos, tangible interface prototypes, and digital art projects.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a9323132-076e-4058-a5cf-1e37fcf6be49" />
+  <img src="https://github.com/user-attachments/assets/a9323132-076e-4058-a5cf-1e37fcf6be49"
 alt="Paper Piano Template" width="70%" />
 </p>
 
