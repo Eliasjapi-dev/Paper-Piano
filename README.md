@@ -2,7 +2,9 @@
 
 **Paper Piano** is an interactive application that lets you “play” a printed piano using green markers and your computer’s camera. It combines OpenCV for computer vision, MediaPipe Hands for finger tracking, and Pygame for sound playback. Perfect for demos, tangible interface prototypes, and digital art projects.
 
-<img width="1833" height="1036" alt="image" src="https://github.com/user-attachments/assets/9d07c7aa-9281-4a90-92cf-48dd26bba5d5" />
+<p align="center">
+  <img src="piano_imgs/Paper%20Piano_2.jpg" alt="Paper Piano Template" width="70%" />
+</p>
 
 ---
 
@@ -30,23 +32,23 @@
    - When a tracked fingertip overlaps a note marker, that note plays immediately.
 
 5. **Octave Control**  
-   - On-screen buttons (or keyboard shortcuts):
-     - Oct– / Oct+  
+   - On-screen buttons (or keyboard shortcuts):  
+     - Oct– / Oct+   
      - Toggle between 1-octave (12 notes) and 2-octave (24 notes) layouts.  
    - Two large control markers: first = Oct–, second = Oct+. Hover for 0.5 s “cooldown” to switch.
 
 6. **UI and Keyboard Shortcuts**  
-   | Button / Key | Action                        |
-   |--------------|-------------------------------|
-   | Rst / r      | Reset perspective points      |
-   | Togl / t     | Toggle static/dynamic mode    |
-   | Frnt / f     | Toggle frontal/normal view    |
-   | o / p        | Octave Down / Octave Up       |
-   | g            | Rotate 180°                   |
-   | m            | Mirror horizontally           |
-   | n            | Toggle 1 ↔ 2 octaves          |
-   | h / j / k    | Apply HSV presets             |
-   | q            | Quit                          |
+   | Button / Key | Action                        |  
+   |--------------|-------------------------------|  
+   | Rst / r      | Reset perspective points      |  
+   | Togl / t     | Toggle static/dynamic mode    |  
+   | Frnt / f     | Toggle frontal/normal view    |  
+   | o / p        | Octave Down / Octave Up       |  
+   | g            | Rotate 180°                   |  
+   | m            | Mirror horizontally           |  
+   | n            | Toggle 1 ↔ 2 octaves          |  
+   | h / j / k    | Apply HSV presets             |  
+   | q            | Quit                          | 
 
 ---
 
@@ -62,11 +64,14 @@ Paper_Piano/
 ├── piano_imgs/                      # Template images
 │   ├── Paper Piano_2.jpg            # Template with green markers
 │   ├── Paper Piano_3.jpg            # Alternative template
-│   └── Paper Piano.docx             # Templates
-├── “Paper Piano (2 Octaves).ipynb”  # Demo notebook without 'Oct+' and 'Oct-' buttons
-├── “Paper Piano (2 Ocatavas)-Change Octave Buttons.ipynb” # Notebook with 'Oct+' and 'Oct-' buttons
-├── Paper Piano Demo.mp4             # Full demo video
-└── Paper Piano Guide.mp4            # Step-by-step guide video
+│   └── Paper Piano.docx             # Printable instruction sheet
+├── notebooks/                       # Jupyter notebooks
+│   ├── Paper Piano (2 Octaves).ipynb
+│   └── Paper Piano (2 Octaves)-Change Octave Buttons.ipynb
+├── videos/                          # Demo videos (hosted externally)
+│   ├── guide_thumbnail.png          # Thumbnail for guide video
+│   └── demo_thumbnail.png           # Thumbnail for demo video
+└── README.md                        # This file
 ```
 
 ---
@@ -83,7 +88,7 @@ Paper_Piano/
    ```bash
    python -m venv venv
    source venv/bin/activate     # Linux/macOS
-   venv\Scripts\activate      # Windows
+   venv\\Scripts\\activate      # Windows
    ```
 
 3. **Install dependencies**  
@@ -100,8 +105,19 @@ Paper_Piano/
 
 ## 🎥 Demo Videos
 
-- **Step-by-Step Guide**: [`Paper Piano Guide.mp4`](Paper Piano Guide.mp4)  
-- **Full Demonstration**: [`Paper Piano Demo.mp4`](Paper Piano Demo.mp4)  
+<p align="center">
+  <a href="https://youtu.be/x4NhaETVLHE">
+    <img src="videos/guide_thumbnail.png" alt="Step-by-Step Guide" width="45%" />
+  </a>
+  <a href="https://youtu.be/RmHnPL2CEOw">
+    <img src="videos/demo_thumbnail.png" alt="Full Demo" width="45%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/x4NhaETVLHE"><strong>▶️ Watch Setup & Calibration Guide</strong></a> &nbsp;|&nbsp;  
+  <a href="https://youtu.be/RmHnPL2CEOw"><strong>▶️ Watch Full Demonstration</strong></a>
+</p>
 
 ---
 
@@ -110,7 +126,7 @@ Paper_Piano/
 1. Fork the repository.  
 2. Create a branch: `git checkout -b feature/new-feature`.  
 3. Commit your changes: `git commit -m "Add new feature"`.  
-4. Open a pull request.  
+4. Open a pull request.
 
 ---
 
