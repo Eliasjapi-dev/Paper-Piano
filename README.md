@@ -38,15 +38,15 @@
 6. **UI and Keyboard Shortcuts**  
    | Button / Key | Action                        |
    |--------------|-------------------------------|
-   | Rst / R      | Reset perspective points      |
-   | Togl / T     | Toggle static/dynamic mode    |
-   | Frnt / F     | Toggle frontal/normal view    |
-   | O / P        | Octave Down / Octave Up       |
-   | G            | Rotate 180°                   |
-   | M            | Mirror horizontally           |
-   | N            | Toggle 1 ↔ 2 octaves          |
-   | H / J / K    | Apply HSV presets             |
-   | Q            | Quit                          |
+   | Rst / r      | Reset perspective points      |
+   | Togl / t     | Toggle static/dynamic mode    |
+   | Frnt / f     | Toggle frontal/normal view    |
+   | o / p        | Octave Down / Octave Up       |
+   | g            | Rotate 180°                   |
+   | m            | Mirror horizontally           |
+   | n            | Toggle 1 ↔ 2 octaves          |
+   | h / j / k    | Apply HSV presets             |
+   | q            | Quit                          |
 
 ---
 
@@ -59,13 +59,12 @@ Paper_Piano/
 │   ├── C0.mp3 … B0.mp3
 │   ├── C1.mp3 … B1.mp3
 │   └── … up to C7.mp3 … B7.mp3
-├── piano_imgs/                      # Template images and documentation
+├── piano_imgs/                      # Template images
 │   ├── Paper Piano_2.jpg            # Template with green markers
 │   ├── Paper Piano_3.jpg            # Alternative template
-│   └── Paper Piano.docx             # Printable instruction sheet
-├── .ipynb_checkpoints/              # Jupyter notebook checkpoints
-├── “Paper Piano (2 Octaves).ipynb”  # Demo notebook
-├── “Paper Piano (2 Octaves)-…ipynb” # Notebook with alternate controls
+│   └── Paper Piano.docx             # Templates
+├── “Paper Piano (2 Octaves).ipynb”  # Demo notebook without 'Oct+' and 'Oct-' buttons
+├── “Paper Piano (2 Ocatavas)-Change Octave Buttons.ipynb” # Notebook with 'Oct+' and 'Oct-' buttons
 ├── Paper Piano Demo.mp4             # Full demo video
 └── Paper Piano Guide.mp4            # Step-by-step guide video
 ```
