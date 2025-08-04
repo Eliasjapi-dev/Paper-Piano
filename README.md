@@ -65,13 +65,9 @@ Paper_Piano/
 ├── piano_imgs/                      # Template images
 │   ├── Paper Piano_2.jpg            # Template with green markers
 │   ├── Paper Piano_3.jpg            # Alternative template
-│   └── Paper Piano.docx             # Printable instruction sheet
-├── notebooks/                       # Jupyter notebooks
-│   ├── Paper Piano (2 Octaves).ipynb
-│   └── Paper Piano (2 Octaves)-Change Octave Buttons.ipynb
-├── videos/                          # Demo videos (hosted externally)
-│   ├── guide_thumbnail.png          # Thumbnail for guide video
-│   └── demo_thumbnail.png           # Thumbnail for demo video
+│   └── Paper Piano.docx             # Template images sheet
+├── Paper Piano (2 Octaves).ipynb
+├── Paper Piano (2 Octaves)-Change Octave Buttons.ipynb
 └── README.md                        # This file
 ```
 
