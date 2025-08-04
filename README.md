@@ -81,7 +81,7 @@ Paper_Piano/
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/your-username/Paper_Piano.git
+   git clone https://github.com/Eliasjapi-dev/Paper-Piano.git
    cd Paper_Piano
    ```
 
