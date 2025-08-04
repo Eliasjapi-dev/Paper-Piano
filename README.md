@@ -108,10 +108,12 @@ Paper_Piano/
 
 <p align="center">
   <a href="https://youtu.be/x4NhaETVLHE">
-    <img src="videos/guide_thumbnail.png" alt="Step-by-Step Guide" width="45%" />
+    <img src="https://github.com/user-attachments/assets/3fa8fb33-9a5e-42e2-ba6a-8fae8053bd26" 
+      alt="Step-by-Step Guide" width="45%" />
   </a>
   <a href="https://youtu.be/RmHnPL2CEOw">
-    <img src="videos/demo_thumbnail.png" alt="Full Demo" width="45%" />
+    <img src="https://github.com/user-attachments/assets/7b25d7af-780a-49dd-83c2-c6cbd7bc4650"
+      alt="Full Demo" width="45%" />
   </a>
 </p>
 
